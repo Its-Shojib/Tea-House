@@ -28,6 +28,8 @@
             'text-second': '#777',
             'gradient-start': '#FF8938',
             'gradient-end': '#F00',
+            'gradient-start2': '#F4F4F4',
+            'gradient-end2': '#F4F4F4',
           }
         }
       }
@@ -44,7 +46,7 @@
 <body class="font-manrope">
   <header>
     <!-- Tea-House Section -->
-    <section class="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16 ">
+    <section class="max-w-screen-xl mx-auto px-4 py-5 my-10 md:px-8 lg:px-16 ">
       <div class="hero">
         <div class="hero-content gap-6 flex-col justify-between items-center lg:flex-row">
           <div class="flex-1">
@@ -68,9 +70,86 @@
         </div>
       </div>
     </section>
-
   </header>
+
   <main>
+    <!-- Feature Section -->
+    <section class="max-w-screen-xl mx-auto px-4 py-5 my-10 md:px-8 lg:px-16">
+      <div>
+        <h1 class="text-2xl md:text-5xl text-first font-bold text-center mt-5">Our Featured Products</h1>
+        <p class="lg:max-w-3xl mb-10 mx-auto text-center my-5">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+          which don't look even slightly believable.
+        </p>
+      </div>
+      <!-- Card Images -->
+      <div class="grid grid-cols gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div class="card bg-gradient-to-r from-gradient-start2 to-gradient-end2">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-1.png" alt="Tea" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card bg-gradient-to-r from-gradient-start2 to-gradient-end2">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-2.png" alt="Tea" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Black Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card bg-gradient-to-r from-gradient-start2 to-gradient-end2">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-3.png" alt="Tea" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Lemon Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card bg-gradient-to-r from-gradient-start2 to-gradient-end2">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-4.png" alt="Tea" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Green Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Great Tea Section -->
+    <section class="max-w-screen-xl mx-auto px-4 py-5 my-10 md:px-8 lg:px-16">
+      <div class="flex flex-col gap-10 lg:flex-row">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="h-28 rounded-xl bg-gradient-to-r from-red-100 to-amber-100"></div>
+          <div class="row-span-2 bg-[#5776391A] rounded-lg px-8 py-10 flex justify-center items-center">
+            <img src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="row-span-2 bg-[#5776391A] rounded-lg px-8 py-10 flex justify-center items-center">
+            <img src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="h-28 rounded-xl bg-gradient-to-r from-red-100 to-amber-100"></div>
+        </div>
+        <div class="flex-1 space-y-5">
+          <h1 class="text-2xl lg:text-5xl font-bold text-first">Great Tea, Freshly Presented</h1>
+          <p class="text-second">The meaning of gong cha is chanese is to provide the best tea to emperor from all
+            possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had
+            been deeply appreciated by its custoers because of good words of mouth and unique customized service
+            orginated from Taiwan.</p>
+          <h3 class="text-xl lg:text-2xl font-bold text-first">Unique Taste</h3>
+          <p class="text-second">A Unique and different style from other teapots gives a luxurious and minimalist
+            impression</p>
+          <h3 class="text-xl lg:text-2xl font-bold text-first">Premium Quality</h3>
+          <p class="text-second">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+      </div>
+
+    </section>
 
   </main>
   <footer>
