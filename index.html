@@ -2,49 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/tea-logo.jpg" type="image/x-icon">
-    <title>Tea House</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/tea-logo.jpg" type="image/x-icon">
+  <title>Tea House</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <!-- CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'text-first': '#1C1C1C',
+            'text-second': '#777',
+            'gradient-start': '#FF8938',
+            'gradient-end': '#F00',
           }
         }
-      </script> 
+      }
+    }
+  </script>
 
-    <style>
-        .font-manrope {
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="font-manrope">
-    <header>
+  <header>
+    <!-- Tea-House Section -->
+    <section class="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16 ">
+      <div class="hero">
+        <div class="hero-content gap-6 flex-col justify-between items-center lg:flex-row">
+          <div class="flex-1">
+            <h1 class="text-6xl text-first font-bold">It's good <br>
+              tea time at The <br> Tea House</h1>
+            <p class="py-6 text-second">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+              Buds.</p>
+            <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More <img
+                src="./images/arrow.png" alt=""></button>
+          </div>
+          <div>
+            <img class="flex-1" src="./images/banner.png" class="max-w-xs rounded-lg shadow-2xl" />
+            <div class="-mt-24 ml-24 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+              <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </header>
-    <main>
+  </header>
+  <main>
 
-    </main>
-    <footer>
+  </main>
+  <footer>
 
-    </footer>
+  </footer>
 
 </body>
 
